@@ -25,10 +25,7 @@ public class Main {
             arrE[i] = Numeri[indice];   //all'indice dell'array vuoto verrà messo l'elemento in arrayNUm
             indice++;   // scorre l'indice dell'array (arrayNum)
         }
-
-
     }
-
     public static int[] removeDuplicate(int[] arrD) {
         int[] temp = new int[arrD.length];
         int indice = 0;
