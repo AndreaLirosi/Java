@@ -10,6 +10,9 @@ public class Student {      //creo la classe immettendo i dati di cui è compost
         this.surname = surname;
         this.ID = ID;
     }
+    public int identify () {
+        return ID;
+    }
 
     @Override
     public String toString() {

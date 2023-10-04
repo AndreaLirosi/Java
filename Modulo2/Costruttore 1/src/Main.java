@@ -3,7 +3,7 @@ public class Main {
     Student Stud = new Student("Andrea", "Lirosi", 10023);
 
     System.out.println(Stud);
-
+    System.out.println(Stud.identify());
 
 
     }
