@@ -12,7 +12,6 @@ public class Main {
         } catch (Exception e) {
             System.out.println("Errore " + e);
         }
-
         try {
             if (denominatore == null) {
                 System.out.println("Il denominatore è null");
