@@ -4,9 +4,9 @@ public class Main {
         double div = 0;
         check(num,div);
     }
-    public static double division (double num, double div) {
+    public static double division (double num, double div) throws Exception {
         if(div == 0) {
-            throw new ArithmeticException("Diviso per 0");
+            throw new Exception("Diviso per 0");
         }
         else {
             return num/div;
@@ -16,7 +16,7 @@ public class Main {
         try {
             double result = division(n,d);
             System.out.println("Il risultato è: " + result);
-        }catch (ArithmeticException e ){
+        }catch (Exception e ){
             System.out.println("Errore: " + e.getMessage());
         }
     }
