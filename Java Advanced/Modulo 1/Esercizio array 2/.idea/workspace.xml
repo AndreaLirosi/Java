@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d595dc7-4eb6-4bf5-ba7b-1609bbc076c1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Autoboxing_Unboxing/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Autoboxing_Unboxing/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo2/Costruttore 1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo2/Costruttore 1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo2/Costruttore 2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo2/Costruttore 2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo2/Costruttore 3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo2/Costruttore 3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo2/Costruttore 3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo2/Costruttore 3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo3/Classi Astratte/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo3/Classi Astratte/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo3/Enum/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo3/Enum/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo3/Ereditarieta/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo3/Ereditarieta/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo3/Ereditarieta2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo3/Ereditarieta2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo3/Ereditarieta2/src/Rettangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo3/Ereditarieta2/src/Rettangolo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo3/Interfacce/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo3/Interfacce/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Modulo3/Polimorfismo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Modulo3/Polimorfismo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Settimana1/Array 1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Settimana1/Array 1/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2X7uPPNIbSZofmpUb7yaE0NKOiN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/liros/OneDrive/Desktop/Corso Informatica/Project/Miei Test/Eserizi JavaBasic/Esercitazione array 01"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d595dc7-4eb6-4bf5-ba7b-1609bbc076c1" name="Changes" comment="" />
+      <created>1697992417041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697992417041</updated>
+    </task>
+    <servers />
+  </component>
+</project>
