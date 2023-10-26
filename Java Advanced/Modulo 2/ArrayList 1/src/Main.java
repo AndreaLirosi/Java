@@ -12,7 +12,7 @@ public class Main {
         elenco.add(studente1);
         elenco.add(studente2);
         elenco.add(studente3);
-        System.out.println("Elenco studenti: " + elenco);
+        System.out.println("Elenco studenti: \n" + elenco);
 
         Student studente4 = new Student("Roberto", 22);
         Student studente5 = new Student("Patrizia", 25);
@@ -23,7 +23,7 @@ public class Main {
         elenco.add(studente5);
         elenco.add(studente6);
         elenco.add(studente7);
-        System.out.println("la nuova lista è: " + elenco);
+        System.out.println("la nuova lista è: \n" + elenco);
 
 
 
