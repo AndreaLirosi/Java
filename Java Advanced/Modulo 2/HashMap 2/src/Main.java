@@ -36,7 +36,8 @@ public class Main {
  la freccia -> è una Lambda che definisce come i due elementi della lista (listarticoli) debbano essere comparati per determinare l'ordine. i due entry sono oggetti di listArticoli.
  Integer.compare è la funzione che confornta le due variabili, .getValue.getPrezzo sono metodi che permetto di andare a pescare i valore (il primo) e il prezzo (il secondo); quest'ultimo l'oggetto del confronto.*/
 
-        listArticoli.sort((entry1, entry2) -> Integer.compare(entry1.getValue().getPrezzo(), entry2.getValue().getPrezzo()));
+        //listArticoli.sort((entry1, entry2) -> Integer.compare(entry1.getValue().getPrezzo(), entry2.getValue().getPrezzo()));
+        listArticoli.sort(Comparator.comparingInt(entry -> entry.getValue().getPrezzo()));
 
         System.out.println("\nMap ordinata per prezzo crescente \n");
         for (Map.Entry<String, Article> entry : listArticoli) {
