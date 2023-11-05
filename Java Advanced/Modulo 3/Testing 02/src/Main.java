@@ -21,4 +21,5 @@ public class Main {
     public static String dataShort (OffsetDateTime data) {
         return data.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT));
     }
+
 }

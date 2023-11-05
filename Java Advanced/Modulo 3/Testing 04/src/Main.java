@@ -21,4 +21,5 @@ public class Main {
     public static String getDayOfWeek (OffsetDateTime data) {
         return String.valueOf(data.getDayOfWeek());
     }
+
 }
