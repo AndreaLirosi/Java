@@ -1,6 +1,7 @@
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
+import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,6 +29,9 @@ public class Main {
         return data.plusWeeks(1);
     }
     public static OffsetDateTime dataFormat (OffsetDateTime data){
-        return data.plusWeeks(1);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss", Locale.ITALY);
+        String dataFormattata = data.format(formatter);
+        return OffsetDateTime.parse(dataFormattata, formatter);
+
     }
 }
