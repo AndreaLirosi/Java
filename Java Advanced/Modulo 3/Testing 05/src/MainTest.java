@@ -22,11 +22,4 @@ class MainTest {
         assertEquals("Errore date Null", e.getMessage());
     }
 
-    @Test
-    void dataplusWeek() {
-    }
-
-    @Test
-    void dataFormat() {
-    }
 }
