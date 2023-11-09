@@ -22,11 +22,17 @@ public class Main {
         return data.plusYears(1);
     }
     public static OffsetDateTime dataminusMonth (OffsetDateTime data){
-        return data.minusMonths(1);
+        if (data != null) {
+            return data.minusMonths(1);
+        }else {
+            throw new NullPointerException("Errore date Null");
+        }
     }
     public static OffsetDateTime dataplusWeek (OffsetDateTime data){
-        return data.minusMonths(1);
-    }
+
+            return data.minusMonths(1);
+        }
+
     public static OffsetDateTime dataFormat (OffsetDateTime data){
         return data.plusWeeks(1);
     }

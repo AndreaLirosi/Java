@@ -25,7 +25,7 @@ public class Main {
         return data.minusMonths(1);
     }
     public static OffsetDateTime dataplusWeek (OffsetDateTime data){
-        return data.minusMonths(1);
+        return data.plusWeeks(1);
     }
     public static OffsetDateTime dataFormat (OffsetDateTime data){
         return data.plusWeeks(1);

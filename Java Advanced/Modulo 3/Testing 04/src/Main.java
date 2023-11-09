@@ -13,7 +13,12 @@ public class Main {
         return data.getYear();
     }
     public static String getMonth (OffsetDateTime data) {
-        return String.valueOf(data.getMonth());
+        if (data != null) {
+            return String.valueOf(data.getMonth());
+        } else {
+            throw new NullPointerException("Error date is Null");
+        }
+
     }
     public static int getDayOfMonth (OffsetDateTime data) {
         return data.getDayOfMonth();

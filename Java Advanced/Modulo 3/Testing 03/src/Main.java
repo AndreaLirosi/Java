@@ -7,7 +7,12 @@ public class Main {
 
         System.out.println(dataFormat(data));
     }
+
     public static String dataFormat (OffsetDateTime data) {
-        return data.format(DateTimeFormatter.ofPattern("dd MMMM yyyy"));
+        if (data == null) {
+            throw new NullPointerException("la data è null");
+        } else {
+            return data.format(DateTimeFormatter.ofPattern("dd MMMM yyyy"));
+        }
     }
 }
