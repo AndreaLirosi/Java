@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
     OffsetDateTime dataTesting = OffsetDateTime.parse("2023-03-01T13:00:00Z");
-
+    String text = "2023-03-01T13:00:00Z";
     @org.junit.jupiter.api.Test
     void getYear() {
         int year = Main.getYear(dataTesting);
@@ -36,5 +36,11 @@ class MainTest {
         String dayOfWeek = Main.getDayOfWeek(dataTesting);
         String result = "WEDNESDAY";
         assertEquals(result, dayOfWeek, "atteso giorno della settimana corrispondente");
+    }
+    @Test
+    void dataParse() {
+        OffsetDateTime textEspected =OffsetDateTime.parse(text);
+        OffsetDateTime test = Main.dataParse(text);
+        assertEquals(textEspected, test, "incorrect parse");
     }
 }

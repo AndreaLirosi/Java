@@ -5,6 +5,7 @@ import java.time.format.FormatStyle;
 public class Main {
     public static void main(String[] args) {
         OffsetDateTime data = OffsetDateTime.parse("2023-03-01T13:00:00Z");
+        String text = "2023-03-01T13:00:00Z";
         OffsetDateTime dataplusYear = data.plusYears(1);
         OffsetDateTime dataminusMonth = dataplusYear.minusMonths(1);
         OffsetDateTime dataplusWeek = dataminusMonth.plusWeeks(1);
@@ -17,6 +18,9 @@ public class Main {
         System.out.println(dataminusMonth);
         System.out.println(dataplusWeek);
         System.out.println(dateString);
+    }
+    public static OffsetDateTime dataParse (String text) {
+        return OffsetDateTime.parse(text);
     }
     public static OffsetDateTime dataplusYear (OffsetDateTime data){
         return data.plusYears(1);

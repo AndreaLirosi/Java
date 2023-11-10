@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class MainTest {
     OffsetDateTime data = OffsetDateTime.parse("2023-03-01T13:00:00Z");
+    String text = "2023-03-01T13:00:00Z";
     @Test
     void dataplusYear() {
         String test = String.valueOf(Main.dataplusYear(data));
@@ -22,4 +23,10 @@ class MainTest {
         assertEquals("Errore date Null", e.getMessage());
     }
 
+    @Test
+    void dataParse() {
+        OffsetDateTime textEspected = OffsetDateTime.parse(text);
+        OffsetDateTime test = Main.dataParse(text);
+        assertEquals(textEspected, test,"Parsing incorretto");
+    }
 }
