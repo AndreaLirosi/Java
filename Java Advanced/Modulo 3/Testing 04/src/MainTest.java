@@ -5,17 +5,17 @@ import java.time.OffsetDateTime;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
-    OffsetDateTime dataTesting = OffsetDateTime.parse("2023-03-01T13:00:00Z");
+
     String text = "2023-03-01T13:00:00Z";
     @org.junit.jupiter.api.Test
     void getYear() {
-        int year = Main.getYear(dataTesting);
+        int year = Main.getYear(text);
         int result = 2023;
         assertEquals(result, year, "atteso anno corrispondente");
     }
     @org.junit.jupiter.api.Test
     void getMonth() {
-        String month = Main.getMonth(dataTesting);
+        String month = Main.getMonth(text);
         String result = "MARCH";
         assertEquals(result, month, "atteso mese corrispondente");
     }
@@ -27,13 +27,13 @@ class MainTest {
     }
     @Test
     void getDayOfMonth() {
-        int dayOfMonth = Main.getDayOfMonth(dataTesting);
+        int dayOfMonth = Main.getDayOfMonth(text);
         int result = 1;
         assertEquals(result, dayOfMonth, "atteso anno corrispondente");
     }
     @Test
     void getDayOfWeek() {
-        String dayOfWeek = Main.getDayOfWeek(dataTesting);
+        String dayOfWeek = Main.getDayOfWeek(text);
         String result = "WEDNESDAY";
         assertEquals(result, dayOfWeek, "atteso giorno della settimana corrispondente");
     }
@@ -42,5 +42,10 @@ class MainTest {
         OffsetDateTime textEspected =OffsetDateTime.parse(text);
         OffsetDateTime test = Main.dataParse(text);
         assertEquals(textEspected, test, "incorrect parse");
+    }
+    void dataParseNull() {
+        Exception e = assertThrows(NullPointerException.class, () -> Main.dataParse(null));
+        assertEquals(NullPointerException.class, e.getClass());
+        assertEquals("Error data is null", e.getMessage());
     }
 }
