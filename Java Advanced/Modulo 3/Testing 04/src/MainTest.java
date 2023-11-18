@@ -44,7 +44,7 @@ class MainTest {
         assertEquals(textEspected, test, "incorrect parse");
     }
     void dataParseNull() {
-        Exception e = assertThrows(NullPointerException.class, () -> Main.dataParse(null));
+        Exception e = assertThrows(NullPointerException.class, () -> Main.dataParse("01T13:00:00Z"));
         assertEquals(NullPointerException.class, e.getClass());
         assertEquals("Error data is null", e.getMessage());
     }
