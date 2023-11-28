@@ -1,16 +1,13 @@
 import java.sql.*;
 import java.util.ArrayList;
-
-
 public class Main {
     public static void main(String[] args) throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/newdb", "developer@localhost", "pass1");
-        Statement statementIt = connection.createStatement();
-        Statement statementGe = connection.createStatement();
-        //create view italianstudents select * from students where country = 'Italy'
-        ResultSet resultSetIt = statementIt.executeQuery("select * from italianstudents");
+        ResultSet viewIt =ManagerDb.createViewIt();
+        ResultSet viewGe = ManagerDb.createViewGe();
 
-        ResultSet resultSetGe = statementGe.executeQuery("select * from germanstudents");
+        ResultSet resultSetIt = ManagerDb.createStatement().executeQuery("select * from italianstudents");
+
+        ResultSet resultSetGe = ManagerDb.createStatement().executeQuery("select * from germanstudents");
 
         ArrayList<Student> italianStudents = new ArrayList<>();
         ArrayList<Student> germanStudents = new ArrayList<>();
